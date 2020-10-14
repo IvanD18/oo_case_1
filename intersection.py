@@ -8,14 +8,6 @@ from tkinter import Tk, Canvas, Frame, BOTH
 import random
 
 
-# In[93]:
-
-
-class ex(Frame):
-    def __init__(self):
-        pass
-
-
 # In[94]:
 
 
@@ -126,9 +118,6 @@ class Draw(tk.Frame):
 
 def main():
     root = Tk()
-    #pic1 = Draw()
-    #parametrs = [0, 0, 1, 1, 2, 2, 2]
-    #a = [i for i in parametrs]
     pic1 = Draw()
     pic1.get_coord_start_line(0, 0) #15, 15
     pic1.get_coord_line(random.randint(0,200), random.randint(0,200), random.randint(0,200), random.randint(0,200), random.randint(0,200), random.randint(0,200),random.randint(0,200),random.randint(0,200),random.randint(0,200),random.randint(0,200),random.randint(0,200),random.randint(0,200),random.randint(0,200),random.randint(0,200),random.randint(0,200),random.randint(0,200),random.randint(0,200),random.randint(0,200),random.randint(0,200),random.randint(0,200))
