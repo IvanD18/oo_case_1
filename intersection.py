@@ -119,17 +119,7 @@ class Draw(tk.Frame):
         return self.xcc, self.yc
             
         
-        
-
-
-# In[96]:
-
-
-#pic1 = Draw(0, 0, 1, 1, 2, 2, 2)
-parametrs = [0, 0, 1, 1, 2, 2, 2]
-a = [i for i in parametrs]
-a
-
+       
 
 # In[128]:
 
