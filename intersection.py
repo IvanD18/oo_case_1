@@ -3,14 +3,9 @@
 
 # In[106]:
 
-
-from tkinter import *
+from tkinter import Tk, Canvas, Frame, BOTH
 import random
 import time
-import tkinter as tk
-# In[94]:
-
-
 from math import sqrt
 
 # In[127]:
@@ -18,7 +13,7 @@ from math import sqrt
 y1 = 0
 
 
-class Draw(tk.Frame):
+class Draw(Frame):
 
     def __init__(self, *args):
 
@@ -111,14 +106,6 @@ class Draw(tk.Frame):
                 print("Нет пересечения")
         return self.xcc, self.yc
 
-
-root = Tk()
-canvas = Canvas()
-canvas.pack()
-root.update()
-root.geometry("400x250+300+300")
-
-
 def main():
     while 1:
         reload()
@@ -151,4 +138,9 @@ def reload():
 
 
 if __name__ == '__main__':
+    root = Tk()
+    canvas = Canvas()
+    canvas.pack()
+    root.update()
+    root.geometry("400x250+300+300")
     main()
